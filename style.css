@@ -1,0 +1,73 @@
+.container, .output, .buttons {
+    border-radius: 4px;
+}
+.output, .buttons {
+    background-color: white;
+}
+body, .container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 520px;
+    border: 1px solid black;
+    background-color:  #e6e6e6;
+}
+.output {
+    box-sizing: border-box;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 5px;
+} 
+.buttons {
+    box-sizing: border-box;
+    display: flex;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.buttons div {
+    flex-grow: 2;
+}
+.col-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.col-1 button {
+    flex-grow: 1;
+    flex-basis: calc(100%/3);
+    background-color: dimgray;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.operator {
+    display: flex;
+}
+.operator button{
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: dimgray;
+}
+button {
+    border: solid;
+    background-color: white;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+}
+#backspace, #clear {
+    background-color: #ff6666;
+}
