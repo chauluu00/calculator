@@ -1,7 +1,7 @@
-.container, .output, .buttons {
+.container, .output, .keypad {
     border-radius: 4px;
 }
-.output, .buttons {
+.output, .keypad {
     background-color: white;
 }
 body, .container {
@@ -28,14 +28,14 @@ body, .container {
     margin-top: 10px;
     padding: 5px;
 } 
-.buttons {
+.keypad {
     box-sizing: border-box;
     display: flex;
     width: 500px;
     border: 1px solid black;
     margin: 10px;
 }
-.buttons div {
+.keypad div {
     flex-grow: 2;
 }
 .col-1 {
