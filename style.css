@@ -53,10 +53,10 @@ body, .container {
     flex-direction: column;
     margin: 10px;
 }
-.operator {
+.operators {
     display: flex;
 }
-.operator button{
+.operators button{
     flex-grow: 1;
     flex-basis: 100%;
     background-color: dimgray;
